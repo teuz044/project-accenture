@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f23817a8b3.js" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2? family= Inter:wght@100;200;300;400;500;600;700;800;900 & display=swap');
+    </style>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="barra"></div>
+        
+            <div id="logo">
+                <img src="imagens/logo.png" alt="imagem_logo">
+        </div>
+        
+        <input type="checkbox" id="checkbox">
+        <label class="btn" for="checkbox"><i class="fa fa-bars"></i> <span>Menu</span></label>
+        
+        <div class="sidebar">
+                <ul>
+                        <a href="#">
+                        <li><i class="fa-sharp fa-solid fa-house"></i></i>Home</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-sharp fa-solid fa-calendar-days"></i></i>Minha Agenda</li>
+                    </a>
+                    <a href="#" class="active">
+                        <li><i class="fa-sharp fa-solid fa-plus"></i></i>Criar Evento</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa fa-television"></i>Eventos onlines</li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-sharp fa-solid fa-gear"></i></i>Configuração</li>
+                    </a>
+            </ul>
+        </div>
+    
+
+    
+    <div class="search-box">
+        <input type="text" class="search-text" placeholder="Pesquisar...">
+            <a class="search-btn">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </a>
+        
+        <div class="personal-image">
+            <label class="label">
+                <input type="file" />
+                <figure class="personal-figure">
+                    <img src="imagens/matheusEU.jpg" class="personal-avatar" alt="avatar">
+                    <figcaption class="personal-figcaption">
+                        <img
+                        src="https://raw.githubusercontent.com/ThiagoLuizNunes/angular-boilerplate/master/src/assets/imgs/camera-white.png">
+                    </figcaption>
+                </figure>
+            </label>
+        </div>
+    </nav>
+        
+        <main>
+
+            <div class="p-3">
+
+                <div class="row">
+                    <div class="text-center">
+                        <h1 class="texto-info">Informações sobre o evento:</h1>
+                        
+                    </div>
+                </div>
+            
+               
+                <div class="row">
+                    <div class="col-4  text-center">                    
+                            <img src="imagens/homemarnha.jpg" class="img-filme w-75">
+                    </div>
+                    <div class="info-evento col">
+                        <h2 class="nome-filme">Homem Aranha: Longe de casa</h2>
+                        <div class="descricao-evento">
+                            <p class="dados"><span class="evento">Evento:</span> Evento sobre encontro do homem aranha</p>
+                            <p class="dados"><span class="evento">Data:</span> 20/10/2022 - 16:00PM</p>
+                            <p class="dados"><span class="evento">Local:</span> Shopping RioMar, Praça de Alimentação, Burguer King.</p>
+                            <p class="dados"><span class="evento">Endereço:</span> Av. República do Líbano, 251 - Pina, Recife - PE, 51110-160</p>
+                            <p class="dados"><span class="evento">Descrição:</span> Somos um pequeno fã-clube do homem-aranha, estamos buscando expandir nosso grupo, você será muito bem vindo, segue a gente no insta: @fãshmaranhape</p>
+                        </div>
+                            <div class="text-center m-5">
+                            <button type="button" class="btn-presenca">Marcar Presença</button>
+                        </div>
+                    </div>               
+                </div>
+                <div class=" row">
+                    <div class="col">
+                        <div class="text-center">
+                            <h3>DESCRIÇÃO DO FILME</h3>
+                        </div>
+                        <div class="sinopse-elenco">
+                            <h4>SINOPSE</h4>
+                            <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet assumenda eveniet saepe laboriosam, sapiente, accusantium corporis commodi fuga similique suscipit consequatur architecto nostrum perspiciatis accusamus obcaecati eius! Nulla, excepturi laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nihil suscipit nobis fugiat amet rem ipsam, perspiciatis sint nulla expedita quae id consequatur officia modi harum iste? Beatae, nobis laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore incidunt blanditiis animi, sint minus fugit atque labore corrupti illum maiores nisi sapiente aliquam autem in at adipisci vero recusandae.</P>
+                            <h4>Elenco Principal</h4>
+                            <p>MATHEUS, TIAGO</p>
+                        </div>
+                    </div>
+                </div>        
+            </div> 
+
+            <a class="button-wpp" href="https://wa.me/55dddnumero?text=Oi!%20Vim%20do%20site%20e%20desejo%20receber%20atendimento" target="_blank">
+                <img src="https://cdn.awsli.com.br/1997/1997501/arquivos/whatsapp.svg" width="60" height="60" alt="Fale Conosco pelo WhatsApp">
+            </a>
+            <a class="button-insta" href="https://instagram.com/seuinstagram" target="_blank">
+                <img src="https://cdn.awsli.com.br/1997/1997501/arquivos/instagram.svg" width="60" height="60" alt="Siga nosso Instagram">
+            </a>
+
+       </main>
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+            <script src="bootstrap-autocomplete.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/xcash/bootstrap-autocomplete@v2.3.7/dist/latest/bootstrap-autocomplete.min.js"></script>
+
+</body>
+
+</html>
