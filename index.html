@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, zinitial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/6497a13f44.js" crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg "style="background-color: #3b1669;">
+            <div class="container-fluid">
+                <button class="button" type="button"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                    <i id="icon" class="fa-solid fa-bars"></i>
+                  </button>
+              <a class="navbar-brand" href="#"><img src="img/MARCA-HADRYA-APP---POPCORN-MEETING.png"width="80px"></a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-white mr-5px active" aria-current="page" href="#">Filtro<i id="icon"  class="fa-solid fa-sliders"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href ="#">Recife, PE <i id="icon" class="fa-solid fa-location-dot"></i></a>
+                  </li>
+ 
+                  <form class="d-flex" role="search" id="search-box">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                  </form>
+                 
+                  <li class="nav-item">
+                    <a class="nav-link disabled"></a>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+     </header>
+ 
+      <div class="offcanvas offcanvas-start" style="background-color: #3b1669;" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+      
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-white" id="offcanvasScrollingLabel"><strong>MENU</strong></h5>
+          <button type="button" class="button" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i id="icon" class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <hr class="h-color">
+        <div class="offcanvas-body">
+          <ul class="list-unstyled text-white ">
+            <li><i class="fa-solid fa-house icons" ></i> Home</li>
+            <li><i class="fa-regular fa-calendar-days icons"></i> Minha Agenda</li>
+            <li><i class="fa-solid fa-plus icons"></i> Criar Evento</li>
+            <li><i class="fa-solid fa-video icons"></i> Eventos Online</li>
+          </ul>
+        </div>
+        <hr class="h-color">
+      </div>
+      
+     <main>
+           
+       
+        <div class="main-screen ">
+           <div class="left-screen">
+            <div class="img-filme">
+                <img class="img-filme" src="img/Homem aranha.jpeg" alt="" width = "360 px" >
+            </div>
+ 
+           </div>
+           <div class="right-screen">
+            <div class="texto-info">
+                <h1>INFORMAÇÕES SOBRE O EVENTO</h1>
+            </div>
+   
+            <div class= "text-body">
+                <p>
+                   <b>EVENTO:</b> Encontro Fãs Homem-Aranha<br>
+                   <b>DATA:</b> 02/01/2023<br>
+                   <b>HORÁRIO:</b> 14h<br>
+                   <b>LOCAL:</b> Shopping Rio Mar <br>
+                   <b>ENDEREÇO:</b> Av. República do Líbano, 251 - Pina, Recife - PE, 51110-160<br>
+                   <b>DESCRIÇÃO:</b>  Somo um pequeno Fã-clube do homem-aranha, estamos buscando expandir nosso grupo, 
+                   você será muito bem-vindo!
+                </p>
+                </div>
+
+
+                <div class="social-button">
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+   
+                <button class="button-present" type="button" form="marcar_presença" onclick="alert('Presença Marcada com Sucesso');">
+                    Marcar Presença!
+                </button>
+   
+            </div>
+        </div>
+        
+        <hr class="h-division">
+
+        <div class="below-screen">
+          <div class="descricao-title ">
+            <strong>SINOPSE</strong>
+            <hr class="h-division">
+
+            <p class="">Peter Parker está em uma viagem de duas semanas pela Europa, ao lado de seus amigos de colégio,
+              quando é surpreendido pela visita de Nick Fury. Convocado para mais uma missão heroica, 
+              ele precisa enfrentar vários vilões que surgem em cidades-símbolo do continente, como Londres, 
+              Paris e Veneza, e também a aparição do enigmático Mysterio.</p>
+          </div>
+
+          <hr class="h-division">
+          <strong>ELENCO</strong>
+            <p> Tom Holland/Peter Parker, Zendaya/ Michelle Jones,
+              Jake Gyllenhaal/Mystério, Samuel L. Jackson/Nick Fury,
+              Marisa Tomei/May Parker, Jon Favreau/Happy Hogan, Remy Hii/Brad Davis
+              J. B. Smoove/Julius Dell</p>
+        </div>
+ 
+    </main>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
