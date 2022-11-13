@@ -165,7 +165,7 @@ color: white;
 
 .search-box {
 position: absolute;
-top: 1%;
+top: 1.5%;
 left: 60%;
 background-color: white;
 height: 35px;
@@ -190,7 +190,7 @@ align-items: center;
 div#logo img{
     position: absolute;
     top: 0%;
-    left: 5%;
+    left: 6%;
     max-width: 110px;
   
 }
@@ -230,7 +230,7 @@ div#logo img{
     height: 50px;
     border-radius: 15px;
     border: none;
-    box-shadow: 1px 1px 4em #888;
+    box-shadow: 1px 1px 4em wheat;
     font-weight: bold;
 }
 
