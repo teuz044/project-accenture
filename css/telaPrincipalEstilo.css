@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+body {
+  
+  width: 100%;
+
+}
+
+
+main .texto-eventos-disponiveis .line-texto h1{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    border-bottom: 2px solid #BAB5BD;
+    left:0;
+    bottom:0;
+}
+
+
+/* icone perfil */
+.personal-image {
+    text-align: center;
+  }
+  .personal-image input[type="file"] {
+    display: none;
+  }
+  .personal-figure {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 110%;
+    top: -65%;
+  }
+  .personal-avatar {
+    cursor: pointer;
+    width: inherit;
+    height: inherit;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    transition: all ease-in-out .3s;
+  }
+  .personal-avatar:hover {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+  .personal-figcaption {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    width: inherit;
+    height: inherit;
+    border-radius: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all ease-in-out .3s;
+  }
+  .personal-figcaption:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .5);
+  }
+  .personal-figcaption > img {
+    margin-top: 20%;
+    width: 30px;
+    height: 30px;
+  }
+/* icone perfil, fim */
+
+/*  Cards */
+  
+  .container {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  /* Card */
+  .card {
+    width: 300px;
+    height: 460px;
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+  }
+  
+  /* Card Header*/
+  .card-header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .card-img {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  /* Card Body */
+  .card-body {
+    height: 170px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .card-local {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .card-titulo {
+    font-size: 32px;
+    margin: 15px 0;
+  }
+  
+  .card-texto {
+    font-size: 12px;
+    font-weight: 600;
+    width: 250px;
+    margin: 0 auto;
+    color: black;
+  }
+  
+  /* Card Footer */
+  .card-footer {
+    margin-top: 10px;
+    text-align: center;
+    background-color: #000;
+  }
+  
+  .card-footer a {
+    color: #fff;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  /* Cores Cards */
+  .card-1 .card-footer {
+    background-color: #3B1669;
+  }
+  
+  .card-1 .card-local {
+    color: #3B1669;
+  }
+  
+  .card-2 .card-footer {
+    background-color: #3B1669;
+  }
+  
+  .card-2 .card-local {
+    color: #3B1669;
+  }
+  
+  .card-3 .card-footer {
+    background-color: #3B1669;
+  }
+  
+  .card-3 .card-local {
+    color: #3B1669;
+  }
+  
+  /* Animação Hover */
+  .card:hover {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+
+
