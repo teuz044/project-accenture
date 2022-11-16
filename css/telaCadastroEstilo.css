@@ -35,7 +35,7 @@ body {
     background: #3B1669; }
   
   .half .bg {
-    width: 25%; }
+    width: 30%; }
     @media (max-width: 767.98px) {
       .half .bg {
         width: 100%;
@@ -194,7 +194,7 @@ body {
     .texto-esquerdo-motivador-cadastro {
         color: white;
         font-weight:900;
-        font-size: 40px;
+        font-size: 35px;
 
     }
 

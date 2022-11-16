@@ -1,18 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
 
 body {
     background-color: white;
-    margin: 0%;
-    height: 100vh;
     width: 100%;
     font-family: 'Inter', sans-serif;
+
 
 }
 
@@ -20,11 +13,25 @@ body {
 .texto-info{
     color: #3B1669;
     font-weight: 600;
+    padding-top: 8%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .texto-info {
+        padding-top: 20%;
+    }
+
+    .img-filme {
+        margin-left: 100%;
+        margin-right: 100%;
+    }
+    
 
 }
 
 .nome-filme {
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 8%;
     font-weight: bold;
     color: #3B1669;
@@ -65,12 +72,12 @@ body {
      color: white; 
      border-radius:5px; 
      padding:5px;
-     font-size: 26px;
+     font-size: 23px;
 }
 
 .dados {
     color: black;
-    font-size: 21px;
+    font-size: 19px;
     font-family: 'Inter', sans-serif;
 
 }
@@ -116,65 +123,6 @@ color: black;
 
 }
 
-/* icone perfil */
-.personal-image {
-    text-align: center;
-  }
-  .personal-image input[type="file"] {
-    display: none;
-  }
-  .personal-figure {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 110%;
-    top: -25%;
-  }
-  .personal-avatar {
-    cursor: pointer;
-    width: inherit;
-    height: inherit;
-    box-sizing: border-box;
-    border-radius: 100%;
-    border: 2px solid transparent;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
-    transition: all ease-in-out .3s;
-  }
-  .personal-avatar:hover {
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
-  }
-  .personal-figcaption {
-    cursor: pointer;
-    position: absolute;
-    top: 0px;
-    width: inherit;
-    height: inherit;
-    border-radius: 100%;
-    opacity: 0;
-    background-color: rgba(0, 0, 0, 0);
-    transition: all ease-in-out .3s;
-  }
-  .personal-figcaption:hover {
-    opacity: 1;
-    background-color: rgba(0, 0, 0, .5);
-  }
-  .personal-figcaption > img {
-    margin-top: 20%;
-    width: 30px;
-    height: 30px;
-  }
-
-/* icone perfil, fim */
-
-/* Botão Marcar presença */
-
-.btn-success {
-    height: 50px;
-    width: 200px;
-    position: absolute;
-    top: 800px;
-    left: 250px;
-  }
 
   /* Informações do evento */
 
@@ -189,9 +137,11 @@ color: black;
   /* button wpp e insta */
 
 main .button-wpp {
-    position:fixed;width:50px;height:50px;bottom:15px;right:15px;border-radius:50px;text-align:center;font-size:30px;z-index:999997;box-shadow: 1px 1px 2px #888;
+    position:fixed;
+    width:50px;height:50px;bottom:15px;right:15px;border-radius:50px;text-align:center;font-size:30px;z-index:999997;box-shadow: 1px 1px 2px #888;
 }
 
 main .button-insta {
-    position:fixed;width:50px;height:50px;bottom:75px;right:15px;border-radius:50px;text-align:center;font-size:30px;z-index:999997;box-shadow: 0px 0px 0px #888;
+    position:fixed;
+    width:50px;height:50px;bottom:75px;right:15px;border-radius:50px;text-align:center;font-size:30px;z-index:999997;box-shadow: 0px 0px 0px #888;
 }
