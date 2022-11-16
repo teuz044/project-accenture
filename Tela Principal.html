@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/telaPrincipalEstilo.css" rel="stylesheet">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css"> 
+    
     <script src="https://kit.fontawesome.com/f23817a8b3.js" crossorigin="anonymous"></script>
-
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
@@ -17,107 +17,22 @@
         @import url('https://fonts.googleapis.com/css2? family= Inter:wght@100;200;300;400;500;600;700;800;900 & display=swap');
     </style>
 
-    <title>Tela Principal</title>
+    <title>Document</title>
 </head>
 <body>
-    
-  <nav>
-
-    <div class="m-0 p-0 container-fluid" style="background-color:#3B1669;">
-        <div class=" menu row align-items-center" height="30%">
-            <div class="col-1">
-                <input type="checkbox" id="checkbox">
-                <label class="btn p-0" for="checkbox">
-                    <i class="fa fa-bars"></i>
-                        <span>Menu</span>
-                    </label>
-            
-                <div class="sidebar">
-                    <ul>
-                        <a href="#"><li><i class="fa-sharp fa-solid fa-house"></i></i>Home</li></a>
-                        <a href="#"><li><i class="fa-sharp fa-solid fa-calendar-days"></i></i>Minha Agenda</li></a>
-                        <a href="#" class="active"><li><i class="fa-sharp fa-solid fa-plus"></i></i>Criar Evento</li></a>
-                        <a href="#"><li><i class="fa fa-television"></i>Eventos onlines</li></a>
-                        <a href="#"><li><i class="fa-sharp fa-solid fa-gear"></i></i>Configuração</li></a>
-                    </ul>
-                </div>
-            
-            </div>
-        <div class="col-2">
-            <div id="logo">
-                <img src="imagens/logo.png" alt="imagem_logo">
-            </div>
-
-        </div>
-        <div class="col-3">
-            <div id="divBusca">
-                <img src="imagens/search3.png" alt="Buscar..."/>
-                <input type="text" id="txtBusca" placeholder="Buscar..."/>
-            </div>
-        </div>
-
-        <div class="col-2">
-                    <div class="select-estado">
-                        <label class="label-estado" for="">
-                            <select class="estado">
-                                <option value="AC">Filtro</option>
-                                <option value="AC">Acre</option>
-                                <option value="AL">Alagoas</option>
-                                <option value="AP">Amapá</option>
-                                <option value="AM">Amazonas</option>
-                                <option value="BA">Bahia</option>
-                                <option value="CE">Ceará</option>
-                                <option value="DF">Distrito Federal</option>
-                                <option value="ES">Espírito Santo</option>
-                                <option value="GO">Goiás</option>
-                                <option value="MA">Maranhão</option>
-                                <option value="MT">Mato Grosso</option>
-                                <option value="MS">Mato Grosso do Sul</option>
-                                <option value="MG">Minas Gerais</option>
-                                <option value="PA">Pará</option>
-                                <option value="PB">Paraíba</option>
-                                <option value="PR">Paraná</option>
-                                <option value="PE">Pernambuco</option>
-                                <option value="PI">Piauí</option>
-                                <option value="RJ">Rio de Janeiro</option>
-                                <option value="RN">Rio Grande do Norte</option>
-                                <option value="RS">Rio Grande do Sul</option>
-                                <option value="RO">Rondônia</option>
-                                <option value="RR">Roraima</option>
-                                <option value="SC">Santa Catarina</option>
-                                <option value="SP">São Paulo</option>
-                                <option value="SE">Sergipe</option>
-                                <option value="TO">Tocantins</option>
-                                <option value="EX">Estrangeiro</option>
-                            </select>                   
-                        </label>
-                    </div>
-        </div>
-
-        <div class="col-2">
-            <div class="redes-sociais">
-                <button class="redes-sociais-button">Nosso Instagram  <i class="fa fa-instagram"></i>
-            </div>
-        </div>
-
-        <div class="col-1">
-            <div class="personal-image">
-                <label class="label">
-                    <input type="file" />
-                    <figure class="personal-figure">
-                        <img src="imagens/matheusEU.jpg" class="personal-avatar" alt="avatar">
-                        <figcaption class="personal-figcaption">
-                            <img src="https://raw.githubusercontent.com/ThiagoLuizNunes/angular-boilerplate/master/src/assets/imgs/camera-white.png">
-                        </figcaption>
-                    </figure>
-                </label>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-</nav>
+<header>
+  <div class="navbar">
+    <div class="logo"><img class="img-logo" src="imagens/logo.png" alt=""></div>
+    <div class="hamburguer active"></div>
+  
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Encontros</a></li>
+      <li><a href="#">Encontros Marcados</a></li>
+      <li><a href="#">Sobre</a></li>
+    </ul>
+  </div>
+</header>
 
     <main>
        <div class="line-texto">
@@ -147,7 +62,7 @@
       
               <!-- card-footer -->
               <div class="card-footer">
-                <a href="#">Ver Mais</a>
+                <a href="Tela de informações-h.Aranha.html">Ver Mais</a>
               </div>
               <!-- card-footer -->
             </div>
@@ -173,7 +88,7 @@
 
         <!-- card-footer -->
         <div class="card-footer">
-          <a href="#">Ver Mais</a>
+          <a href="Tela de informações-Órfã.html">Ver Mais</a>
         </div>
         <!-- card-footer -->
       </div>
@@ -199,12 +114,10 @@
 
         <!-- card-footer -->
         <div class="card-footer">
-          <a href="#">Ver Mais</a>
+          <a href="Tela de informações-t.Gun.html">Ver Mais</a>
         </div>
         <!-- card-footer -->
       </div>
-      <!-- Card 3 -->
-
             <!-- Card 4 -->
             <div class="card card-3">
               <!-- card-header -->
@@ -232,142 +145,58 @@
             <!-- Card 4 -->
 
                   <!-- Card 5 -->
-      <div class="card card-3">
-        <!-- card-header -->
-        <div class="card-header">
-          <img src="imagens/Padrinho.jpg" class="card-img" />
-        </div>
-        <!-- card-header -->
+                  <div class="card card-3">
+                    <!-- card-header -->
+                    <div class="card-header">
+                      <img src="imagens/Padrinho.jpg" class="card-img" />
+                    </div>
+                    <!-- card-header -->
+            
+                    <!-- card-body -->
+                    <div class="card-body">
+                      <h3 class="card-local">PE/Olinda</h3>
+                      <h2 class="card-titulo">O Poderoso Chefão</h2>
+                      <p class="card-texto">
+                        Encontro no shopping olinda.
+                      </p>
+                    </div>
+                    <!-- card-body -->
+            
+                    <!-- card-footer -->
+                    <div class="card-footer">
+                      <a href="#">Ver Mais</a>
+                    </div>
+                    <!-- card-footer -->
+                  </div>
+                  <!-- Card 5 -->
 
-        <!-- card-body -->
-        <div class="card-body">
-          <h3 class="card-local">PE/Olinda</h3>
-          <h2 class="card-titulo">O Poderoso Chefão</h2>
-          <p class="card-texto">
-            Encontro no shopping olinda.
-          </p>
-        </div>
-        <!-- card-body -->
-
-        <!-- card-footer -->
-        <div class="card-footer">
-          <a href="#">Ver Mais</a>
-        </div>
-        <!-- card-footer -->
-      </div>
-      <!-- Card 5 -->
-
-            <!-- Card 3 -->
-            <div class="card card-3">
-              <!-- card-header -->
-              <div class="card-header">
-                <img src="imagens/Duna.jpg" class="card-img" />
-              </div>
-              <!-- card-header -->
-      
-              <!-- card-body -->
-              <div class="card-body">
-                <h3 class="card-local">PE/Recife</h3>
-                <h2 class="card-titulo">Duna</h2>
-                <p class="card-texto">
-                  Encontro no Tacaruna, manda um alo no zap: (81)988573131
-                </p>
-              </div>
-              <!-- card-body -->
-      
-              <!-- card-footer -->
-              <div class="card-footer">
-                <a href="#">Ver Mais</a>
-              </div>
-              <!-- card-footer -->
+           <!-- Card 6 -->
+           <div class="card card-3">
+            <!-- card-header -->
+            <div class="card-header">
+              <img src="imagens/Duna.jpg" class="card-img" />
             </div>
-            <!-- Card 3 -->
-
-                  <!-- Card 3 -->
-      <div class="card card-3">
-        <!-- card-header -->
-        <div class="card-header">
-          <img src="imagens/topgun.jpg" class="card-img" />
-        </div>
-        <!-- card-header -->
-
-        <!-- card-body -->
-        <div class="card-body">
-          <h3 class="card-local">PE/Caruaru</h3>
-          <h2 class="card-titulo">Top Gun Maverick</h2>
-          <p class="card-texto">
-            Encontro no Burguer King, mandar mensagem para: (83)988773333
-          </p>
-        </div>
-        <!-- card-body -->
-
-        <!-- card-footer -->
-        <div class="card-footer">
-          <a href="#">Ver Mais</a>
-        </div>
-        <!-- card-footer -->
-      </div>
-      <!-- Card 3 -->
-
-            <!-- Card 3 -->
-            <div class="card card-3">
-              <!-- card-header -->
-              <div class="card-header">
-                <img src="imagens/topgun.jpg" class="card-img" />
-              </div>
-              <!-- card-header -->
-      
-              <!-- card-body -->
-              <div class="card-body">
-                <h3 class="card-local">PE/Caruaru</h3>
-                <h2 class="card-titulo">Top Gun Maverick</h2>
-                <p class="card-texto">
-                  Encontro no Burguer King, mandar mensagem para: (83)988773333
-                </p>
-              </div>
-              <!-- card-body -->
-      
-              <!-- card-footer -->
-              <div class="card-footer">
-                <a href="#">Ver Mais</a>
-              </div>
-              <!-- card-footer -->
+            <!-- card-header -->
+    
+            <!-- card-body -->
+            <div class="card-body">
+              <h3 class="card-local">PE/Recife</h3>
+              <h2 class="card-titulo">Duna</h2>
+              <p class="card-texto">
+                Encontro no Tacaruna, manda um alo no zap: (81)988573131
+              </p>
             </div>
-            <!-- Card 3 -->
-
-                  <!-- Card 3 -->
-      <div class="card card-3">
-        <!-- card-header -->
-        <div class="card-header">
-          <img src="imagens/topgun.jpg" class="card-img" />
-        </div>
-        <!-- card-header -->
-
-        <!-- card-body -->
-        <div class="card-body">
-          <h3 class="card-local">PE/Caruaru</h3>
-          <h2 class="card-titulo">Top Gun Maverick</h2>
-          <p class="card-texto">
-            Encontro no Burguer King, mandar mensagem para: (83)988773333
-          </p>
-        </div>
-        <!-- card-body -->
-
-        <!-- card-footer -->
-        <div class="card-footer">
-          <a href="#">Ver Mais</a>
-        </div>
-        <!-- card-footer -->
-      </div>
-      <!-- Card 3 -->
-      
-      
+            <!-- card-body -->
+    
+            <!-- card-footer -->
+            <div class="card-footer">
+              <a href="#">Ver Mais</a>
+            </div>
+            <!-- card-footer -->
+          </div>
+          <!-- Card 6 -->
 
     </main>
-<script>
-    $(document).ready(function() {
-    $('#estado').select2();
-});
-</script>
+<script src="css/js/scriptMenu.js"></script>
 </body> 
 </html>
