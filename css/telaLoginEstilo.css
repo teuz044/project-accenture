@@ -11,7 +11,7 @@ body {
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6 {
 
-    font-family: "Roboto", sans-serif; color: #3B1669;}
+    font-family: 'Inter', sans-serif; color: #3B1669;}
   a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
@@ -21,6 +21,7 @@ body {
   
   .content {
     padding: 7rem 0; }
+
   
   h2 {
     font-size: 20px; }
@@ -37,7 +38,7 @@ body {
     @media (max-width: 767.98px) {
       .half .bg {
         width: 100%;
-        height: 200px; } }
+        height: 75px; } }
   
   .half .contents {
     width: 75%; }
@@ -80,7 +81,7 @@ body {
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2); }
     @media (max-width: 767.98px) {
       .form-block {
-        padding: 25px; } }
+        padding: 20px; } }
   
   .control {
     display: block;
@@ -186,9 +187,9 @@ body {
       color: white;
       font-weight: bold; 
       float:right; 
-      margin-top: 60%;
       margin-bottom: -10px;
       overflow-x: hidden;
+      font-size: 250%;
     }
     .bg {
   
@@ -207,10 +208,59 @@ body {
       margin-left: auto;
       margin-right: auto;
       width: 250px;
-      height: 60px;
+      height: 70px;
     }
   
-    .texto-esquerdo-motivador {
-      font-weight: 200;
+    .texto-esquerdo-motivador{
+      font-weight: 500;
+      font-size: 17px;
       color: white;
     }
+
+    .btn-cadastro-mobile {
+      display: none;
+    }
+
+
+  @media screen and (max-width: 600px){
+
+    .texto-esquerdo-motivador p{
+      display: none;
+
+    }        
+      
+    .texto-esquerdo{
+      display: none;
+
+    }
+    
+    .btn-cadastro-mobile {
+      display:block;
+      border: none;
+      max-width: 100%;
+      background-color: transparent;
+      color: white;
+      font-weight: 600;
+      margin-left: 0%;
+      margin-top: 25%;
+      border-radius: none;
+      font-family: 'Inter', sans-serif;
+      overflow: hidden;
+    }
+
+    .btn-cadastro-mobile:hover {
+      transition: 0.5s ease;
+      top:-2px;
+      box-shadow:0 2px 2px #666;
+      cursor: pointer;
+    }
+
+    a.cadastro-mobile{
+      margin-left: -5%;
+    }
+
+    .btn-cadastro {
+      display: none;
+    }
+
+  }

@@ -12,7 +12,7 @@ body {
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6 {
 
-    font-family: "Roboto", sans-serif; color: #3B1669;}
+    font-family: 'Inter', sans-serif; color: #3B1669;}
   a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
@@ -39,7 +39,7 @@ body {
     @media (max-width: 767.98px) {
       .half .bg {
         width: 100%;
-        height: 200px; } }
+        height: 75px; } }
   
   .half .contents {
     width: 75%; }
@@ -188,17 +188,15 @@ body {
     .texto-esquerdo-logar-cadastro {
         color: #e6e6e6;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .texto-esquerdo-motivador-cadastro {
         color: white;
         font-weight:900;
-        font-size: 35px;
+        font-size: 50px;
 
     }
-
-/* BOTÃO PULSANTE */
 
 /*Botão Pulsa*/
 .box-pulse { 
@@ -220,7 +218,7 @@ body {
   transition: all 0.4s;
 }
 .botao-pulse {
-  padding: 20px 30px;
+  padding: 12px 32px;
   color: #fff;
   background-color: #3B1669;
   border-radius:30px; 
@@ -288,3 +286,50 @@ body {
   100% {transform: scale(1);}
 }
 /*Botão Pulsa* FIM*/
+
+.btn-login-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+  .texto-esquerdo-motivador-cadastro {
+    display: none;
+  
+  }
+
+  .texto-esquerdo-logar-cadastro {
+    display: none;
+    
+  }
+
+  .box-pulse a {
+  display: none;
+
+  }
+.botao-pulse {
+  display: none;
+
+  }
+
+.btn-login-mobile {
+  display:block;
+  border: none;
+  max-width: 100%;
+  background-color: transparent;
+  color: white;
+  font-weight: 600;
+  margin-left: 9%;
+  margin-top: 40%;
+  border-radius: none;
+  font-family: 'Inter', sans-serif;
+}
+
+.btn-login-mobile:hover {
+  transition: 0.5s ease;
+  top:-2px;
+  box-shadow:0 2px 2px #666;
+  cursor: pointer;
+}
+
+}
