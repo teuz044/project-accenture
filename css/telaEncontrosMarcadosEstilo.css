@@ -2,7 +2,6 @@
 
 
 body {
-  
   width: 100%;
 
 }
@@ -11,8 +10,7 @@ body {
 .texto-eventos-disponiveis .line-texto h1{
     font-family: 'Inter', sans-serif;
     color: #3B1669;
-    border-bottom: 2px solid #BAB5BD;
-
+    font-weight: 600;
 }
 
 h1 {
@@ -21,15 +19,14 @@ h1 {
 
 h1::after {
   content: '';
-  width: 400px;
+  width: 300px;
   height: 4px;
   background-color: #3B1669;
   display: block;
   margin: 15px auto;
 }
-
 .line-texto {
-  padding-top: 6%;
+  padding-top: 5%;
   padding-bottom: 4%;
   overflow: hidden;
 }
@@ -37,18 +34,28 @@ h1::after {
   
   .line-texto {
     padding-top: 20%;
+    font-size: 50px;
+  }
+
+  h1 {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  .card-titulo h2{
+    font-size: 18px;
+    margin: 15px 0;
   }
 
 }
 
 @media screen and (max-width: 1024px) and (min-width: 600px) {
   
-  .line-texto {
-    padding-top: 9%;
+    .line-texto {
+      padding-top: 9%;
+    }
+  
   }
-
-}
-
 
 
 /*  Cards */

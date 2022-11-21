@@ -14,7 +14,7 @@ body {
 .texto-info{
     color: #3B1669;
     font-weight: 600;
-    padding-top: 8%;
+    padding-top: 5%;
 }
 
 
@@ -36,7 +36,7 @@ body {
     height: 50px;
     border-radius: 15px;
     border: none;
-    box-shadow: 1px 1px 4em wheat;
+    /* box-shadow: 1px 1px 4em wheat; */
     font-weight: bold;
 }
 
@@ -59,8 +59,8 @@ body {
 .evento {
      background: #3B1669;
      color: white; 
-     border-radius:5px; 
-     padding:5px;
+     border-radius:4px; 
+     padding:6px;
      font-size: 23px;
 }
 
@@ -68,7 +68,6 @@ body {
     color: black;
     font-size: 19px;
     font-family: 'Inter', sans-serif;
-
 }
 
 .dados-sinopse {
