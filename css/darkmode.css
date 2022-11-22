@@ -1,0 +1,47 @@
+.dark_mode {
+    background-color: rgb(28, 28, 28);
+    
+  }
+  
+  .dark_mode div p  {
+    color: #d3d3d3 !important; 
+  }
+  
+  .dark_mode div h6  {
+    color: #d3d3d3 !important; 
+  }
+  
+  .dark_mode div h5  {
+    color: #d3d3d3 !important; 
+  }
+  
+  .dark_mode div h4  {
+    color: #d3d3d3 !important; 
+  }
+  
+  .dark_mode div h3  {
+    color: #d3d3d3 !important; 
+  }
+
+  .dark_mode div h2  {
+    color: #d3d3d3 !important; 
+  }
+  
+  .dark_mode div h1  {
+    color: #d3d3d3 !important; 
+  }
+  
+  .dark_mode div a  {
+    color: #d3d3d3 !important; 
+  }
+  
+  .dark_mode #btn_send_form {
+    color: #d3d3d3;
+  }
+
+  .dark_mode .card {
+
+    background-color: rgb(28, 28, 28);
+
+  }
+  

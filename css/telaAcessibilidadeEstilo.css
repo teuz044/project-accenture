@@ -1,0 +1,212 @@
+
+
+.texto-eventos-disponiveis .line-texto h1{
+    font-family: 'Inter', sans-serif;
+    color: #3B1669;
+    border-bottom: 2px solid #BAB5BD;
+
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  color: #3B1669;
+}
+
+h1::after {
+  content: '';
+  width: 200px;
+  height: 4px;
+  background-color: #3B1669;
+  display: block;
+  margin: 15px auto;
+}
+
+#text-title-acess {
+  color: black;
+  font-size: 31px;
+}
+
+#text-subtitle-acess {
+  font-size: 24px;  
+  color: black;
+}
+
+#main-text-acess {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+#text-holder-acess {
+  height: 8px;
+  width: 108px;
+  background-color: #3B1669;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#text-question-acess {
+  color: #3B1669;
+  font-size: 24px;
+}
+
+.div-necessidades{
+  margin-top: 30px;
+}
+
+.title-necessidade{
+  padding: 0px;
+  font-weight: 600;
+  color: #3B1669;
+}
+
+.link-necessidades{
+  margin-left: 20px;
+}
+
+#div-question-border {
+  border-bottom: 2px solid #3B1669;
+  width: 50%;
+}
+
+#div-acess-row1 {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#div-acess-row2 {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.icons {
+  font-size: 50px;
+  color: #3B1669;
+}
+
+.baixavisao{
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.btn-controle-fonts{
+  margin-left: 55px;
+}
+
+.btn-contraste{
+  margin-left: 45px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.btn-nvda{
+  margin-left: 45px;
+}
+
+.daltonismo{
+  margin-top: 15px;
+  height: 50px;
+  width: 50px;
+}
+
+.fotossensivel{
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.cegueira{
+  margin-top: 15px;
+  height: 40px;
+  width: 50px;
+}
+
+.necessidade-desc{
+  margin-top: 20px;
+}
+
+.aumentar-fonte{
+  background-color: #3B1669;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  border: 2px outset;
+}
+
+.diminuir-fonte{
+  background-color: #3B1669;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  border: 2px outset;
+}
+
+.contraste{
+  background-color: #3B1669;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-left: 0px;
+  border-radius: 10px;
+  border: 2px outset;
+  color: white;
+  height: 40px;
+}
+
+#div-nvda {
+  padding-top: 5px;
+  background-color: #3B1669;
+  height: 35px;
+  width: 108px;
+  border-radius: 8px;
+  border: 2px outset;
+}
+
+#nvda-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+#div-icon {
+  width: 70px;
+  height: 70px;
+  background-color: #3B1669;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#title-text-acess {
+  color: #003373;
+  padding-top: 10px;
+}
+
+#content-text-acess {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  padding-top: 10px;
+}
+
+#text-holder-acess {
+  width: 80px;
+  height: 6px;
+  background-color: #3B1669;
+}
+
+#contatos-label{
+  margin: auto;
+  padding: 10px;
+  background-color: #fff;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+
+#contatos-text{
+  color: #353b3d;
+}
+
