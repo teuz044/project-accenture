@@ -210,3 +210,33 @@ h1::after {
   color: #353b3d;
 }
 
+.text-formulario {
+  font-weight: 600;
+}
+
+.btn-formulario {
+  background-color: #3B1669;
+  color: white;
+  padding: 6px;
+  margin-top: 1%;
+  border-radius: 8px;
+}
+
+input.p-5 {
+  padding: 50%;
+}
+
+@media screen and (max-width: 600px){
+
+
+  .necessidade-desc {
+
+    margin-left: 20%;
+  }
+  
+  .icon-fotossensivel {
+
+    margin-left: -50%;
+
+  }
+}

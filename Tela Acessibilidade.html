@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/telaAcessibilidadeEstilo.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/darkmode.css">
+    <link rel="stylesheet" href="css/footerEstilo.css">
     <script src="css/js/tamanhoFonte.js"></script>
     <script src="https://kit.fontawesome.com/f23817a8b3.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
@@ -28,6 +29,7 @@
             <li><a href="Tela de Encontros Marcados.html">Encontros Marcados</a></li>
             <li><a href="Tela de Encontros Onlines.html">Encontros Virtuais</a></li>
             <li><a href="Tela de Criação.html">Criar Encontro</a></li>
+            <li><a href="Tela Acessibilidade.html">Acessibilidade</a></li>
           </ul>
         </div>
       </header>
@@ -42,7 +44,7 @@
     
           <div align="center">
             <div class="line-texto pt-5">
-                <h1 class="text-center texto-eventos-disponiveis">Assessibilidade</h1>
+                <h1 class="text-center texto-eventos-disponiveis">Acessibilidade</h1>
              </div> 
           </div>
     
@@ -62,9 +64,9 @@
     
         <br />
     
-        <div class="container" id="div-question-border" align="center">
+        <!-- <div class="container" id="div-question-border" align="center">
           <h4 id="text-question-acess">Qual a sua necessidade?</h4>
-        </div>
+        </div> -->
     
         <br />
     
@@ -78,24 +80,23 @@
             <br />
           </div>
     
-          <div class="col-8">
+          <div class="text-aumentar-diminuir col-8">
             <br />
             <h6 class="font-text-preto necessidade-desc" align="justify">
-              Para pessoas com baixa visão temos ferramentas de acessibilidade em que é possível alterar o tamanho da fonte,
-              aperte Tab para alcançar os botões de tamanho de fonte.
+              Ferramenta para aumentar e diminuir a o tamanho das letras no nosso site, clique no botão de A+ para aumentar e no de A- para diminuir.
             </h6>
           </div>
           <div class="col"></div>
         </div>
     
-        <div class="container btn-controle-fonts">
+        <div class="container btn-controle-fonts w-75">
           </a>
-          <div class="btn-container">
-            <button name="increase-font" id="increase-font" class="aumentar-fonte"
+          <div class="btn-container w-50">
+            <button name="increase-font" id="increase-font" class="p-1 aumentar-fonte"
               title="Aumentar globalmente o tamanho das fontes">
               A +
             </button>
-            <button name="decrease-font" id="decrease-font" class="diminuir-fonte"
+            <button name="decrease-font" id="decrease-font" class="p-1 diminuir-fonte"
               title="Diminuir globalmente o tamanho das fontes">
               A -
             </button>
@@ -108,16 +109,16 @@
         <div class="container row div-necessidades">
           <div class="col-2 font-subtitle-azul" align="center">
             <h6 class="font-subtitle-azul">Fotossensível</h6>
-            <div class="col-1" id="div-icon">
+            <div  class="icon-fotossensivel col-1" id="div-icon">
               <i href="#"><img class="fotossensivel" src="imagens/6059784-icone-cegueira-inscrever-se-quadrado-azul-sem-ou-baixa-visao-sinal-desativado-cego-pessoas-icone-gratis-vetor.jpg" alt="" /></i>
             </div>
             <br />
           </div>
     
-          <div class="col-8">
+          <div class="darkcontrast-text col-8">
             <br/>
             <h6 class="font-text-preto necessidade-desc" align="justify">
-                Ferramente de contraste de cores para pessoas com daltonismo ou até mesmo com fotossensibilidade,
+                Ferramenta de contraste de cores para pessoas com daltonismo ou até mesmo com fotossensibilidade,
                 clique no botão contraste e teste o tema de fundo mais adequado para você.
             </h6>
           </div>
@@ -125,8 +126,8 @@
         </div>
     
         <!-- Contraste -->
-        <div class="container btn-contraste">
-          <button name="change-color" id="change-color" class="contraste" title="Ativar o contraste do site"
+        <div class="container btn-contraste w-25">
+          <button name="change-color" id="change-color" class="contraste p-1" title="Ativar o contraste do site"
             onclick="changeColor()">
             Contraste
           </button>
@@ -135,15 +136,77 @@
         <!-- Form -->
 
         <div class="container">
-            <form action=""></form>
+          <div class="row pt-5">
+            <form action="">
+              <p class="border rounded text-formulario">Olá, tudo bem? Espero que esteja gostando de navegar na nossa plataforma. Se você possui alguma deficiência e as nossas funcionalidades não estão lhe suprindo
+                queremos pedir para que você compartilhe conosco, para que nossa equipe possa desenvolver novas soluções para melhorar a experiência do usuário no nosso site.
+              </p>
+              <input class="p-5 rounded" type="text" name="nome"><br>
+              <input class="btn-formulario" type="submit" value="Enviar Formulário">
+            </form>
+          </div>
 
         </div>
         <br/>
         <br/>
         <br/>
+      </main>
+
+
+
+        <footer>
+          <div class="container-footer">
+              <div class="row-footer">
+                  <!-- footer col-->
+                  <div class="footer-col">
+                      <h4>Empresa</h4>
+                      <ul>
+                          <li><a href="#"> Quem somos </a></li>
+                          <li><a href=""> nossos serviços </a></li>
+                          <li><a href=""> política de privacidade </a></li>
+                      </ul>
+                  </div>
+                  <!--end footer col-->
+                  <!-- footer col-->
+                  <div class="footer-col">
+                      <h4>Obter ajuda</h4>
+                      <ul>
+                          <li><a href="#">FAQ</a></li>
+                      </ul>
+                  </div>
+                  <!--end footer col-->
+                  <!-- footer col-->
+                  <div class="footer-col">
+                      <h4>Trabalhe Conosco</h4>
+                      <ul>
+                          <li><a href="#">Contato RH</a></li>
+                      </ul>
+                  </div>
+                  <!--end footer col-->
+                  <!-- footer col-->
+                  <div class="footer-col">
+                      <h4>Receba novas notícias</h4>
+                      <div class="form-sub">
+                          <form>
+                              <input type="email" placeholder="Digite o seu e-mail" required>
+                              <button>Enviar</button>
+                          </form>
+                      </div>
+  
+                      <div class="medias-socias">
+                          <a href="#"> <i class="fa fa-facebook"></i> </a>
+                          <a href="#"> <i class="fa fa-instagram"></i> </a>
+                          <a href="#"> <i class="fa fa-twitter"></i> </a>
+                          <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                      </div>
+  
+                  </div>
+                  <!--end footer col-->
+              </div>
+          </div>
+      </footer>
     <script type="text/javascript" src="css/js/cookies.js"></script>
     <script type="text/javascript" src="css/js/tamanhoFonte.js"></script>
     <script type="text/javascript" src="css/js/scriptMenu.js"></script>
-</main>
 </body>
 </html>

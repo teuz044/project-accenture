@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 footer{
-    background-color: #415aca;
+    background-color: #3B1669;
     padding: 50px 0;
 }
 .container-footer{
@@ -81,7 +81,7 @@ footer{
     outline: none;
     border: 1px solid white;
     color: white;
-    background-color: #415aca;
+    background-color: #3B1669;
 }
 .footer-col .form-sub input::placeholder{
     color: white;
