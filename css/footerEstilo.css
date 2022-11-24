@@ -8,6 +8,7 @@
 footer{
     background-color: #3B1669;
     padding: 50px 0;
+    width: 100%;
 }
 .container-footer{
     max-width: 1400px;
@@ -109,5 +110,6 @@ footer{
 @media (max-width:600px) {
     .footer-col{
         width: 100%;
+        padding-top: 10%;
     }
 }

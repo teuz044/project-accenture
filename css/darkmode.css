@@ -39,9 +39,32 @@
     color: #d3d3d3;
   }
 
-  .dark_mode .card {
+  .dark_mode label {
+    color: #d3d3d3 !important; 
+  }
 
-    background-color: rgb(28, 28, 28);
+  .dark_mode .container button {
+
+    background-color: #090809;
 
   }
+
+  .dark_mode .title {
+    color: #d3d3d3 !important; 
+  }
+
+  .dark_mode .card {
+    background-color: rgb(35, 35, 35);
+  }
+
+  .dark_mode body {
+    background-color: rgb(28, 28, 28) !important; 
+  }
+
+  .dark_mode header {
+    background-color: rgb(28, 28, 28) !important; 
+  }
   
+  .dark_mode footer {
+    background-color: rgb(28, 28, 28) !important; 
+  }
