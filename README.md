@@ -28,11 +28,11 @@ Além do mais, estruturamos nossa plataforma com HTML Semântico, para auxiliar 
 
 👨‍💻Vitor José Gervasio de Lima <br />
 
-👩‍💻Hadrya <br />
+👩‍💻Hadrya Maria <br />
 
-👨‍💻Daniel <br />
+👨‍💻Daniel Alves <br />
 
-👨‍💻Marlon <br />
+👨‍💻Marlon Santos <br />
 
 👨‍💻Thiane Milena Brito Pereira da Silva <br />
 
