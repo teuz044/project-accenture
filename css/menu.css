@@ -83,7 +83,7 @@ position: fixed;
 }
 .menu li a:hover {
   color: #fff;
-  box-shadow: 3px 3px 3px #333;
+  box-shadow: 3px 3px 3px #fff;
 }
 
 @media screen and (max-width: 980px) {
