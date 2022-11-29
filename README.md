@@ -22,9 +22,11 @@ Além do mais, estruturamos nossa plataforma com HTML Semântico, para auxiliar 
 
 👩‍💻Matheus Gabriel Aurista de Souza <br />
 
-👨‍💻Lucas Gabriel <br />
+👨‍💻Lucas Gabriel da Silva Barros <br />
 
-👨‍💻Lúcio <br />
+👨‍💻Lúcio Flávio Santiago Pereira da Silva <br />
+
+👨‍💻Vitor José Gervasio de Lima <br />
 
 👩‍💻Hadrya <br />
 
@@ -32,11 +34,11 @@ Além do mais, estruturamos nossa plataforma com HTML Semântico, para auxiliar 
 
 👨‍💻Marlon <br />
 
-👨‍💻Thiane <br />
+👨‍💻Thiane Milena Brito Pereira da Silva <br />
 
-👨‍💻Luiz <br />
+👨‍💻Luiz Felipe Rodrigues de Souza <br />
 
-👨‍💻Lucas Brito <br /> </h4>
+👨‍💻Luca Brito da Silva <br /> </h4>
 
 ## 🔧 Línguagens Utilizadas 🔧
 
